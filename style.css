@@ -1,0 +1,41 @@
+*{
+    padding: 10px;
+    margin: 0;
+}
+body{
+    background-color: rgb(33, 33, 36);
+    color: rgb(180, 180, 180);
+}
+.corpo{
+    margin-left: 40%;
+    margin-top: 10%;
+    border-style: groove;
+    border-radius: 10px;
+    background-color:rgb(223, 223, 223);
+    color: black;
+    position: absolute;
+    width: 300px;
+    height: 350px;
+}
+.janelaVisualisacao{
+    display: flex;
+    justify-content: flex-end;
+}
+#resultado{
+    border: none;
+    border-radius: 10px;
+    width: 85%;
+    border-style:inset;
+}
+.row div{
+    float: left;
+}
+.row{
+    float: left;
+}
+.teclas tr td button{
+
+    border: hidden;
+    background-color: rgb(223, 223, 223);
+
+}

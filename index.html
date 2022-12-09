@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <!-- corpo da calculadora -->
+    <div class="corpo">
+        <center>
+            
+            <!-- apresentação do resultado -->
+            <input type="text" id="resultado"> 
+        
+            
+            <table class="teclas">
+                <tbody>
+                    <tr>
+                        <td><button id="x" onclick="add(this.id)">x</button></td>
+                        <td><button id="÷" onclick="add(this.id)">÷</button></td>
+                        <td><button id="+" onclick="add(this.id)">+</button></td>
+                        <td><button id="c" onclick="add(this.id)"><img src="/img/x.png" width="25px" style="padding:0%;amrgin:0;" alt="apagar"></button></td>
+                    <tr>
+
+                    </tr>
+                        <td><button id="1" onclick="add(this.id)">1</button></td>
+                        <td><button id="2" onclick="add(this.id)">2</button></td>
+                        <td><button id="3" onclick="add(this.id)">3</button></td>
+                        <td><button id="-" onclick="add(this.id)">-</button></td>
+                    </tr>
+
+                    <tr>
+                        <td><button id="4" onclick="add(this.id)">4</button></td>
+                        <td><button id="5" onclick="add(this.id)">5</button></td>
+                        <td><button id="6" onclick="add(this.id)">6</button></td>
+                        <td><button id="." onclick="add(this.id)">.</button></td>
+                    </tr>
+
+                    <tr>
+                        <td><button id="7" onclick="add(this.id)">7</button></td>
+                        <td><button id="8" onclick="add(this.id)">8</button></td>
+                        <td><button id="9" onclick="add(this.id)">9</button></td>
+                        <td rowspan="2"><button id="=" onclick="add(this.id)">=</button></td>
+                    </tr>
+                    
+                    <tr>
+                        <td></td>
+                        <td colspan="2"><button id="0" onclick="add(this.id)">0</button></td>
+                    </tr>
+                </tbody>
+            </table>
+            
+        </center>
+    </div>
+    <p>https://github.com/LucasMaciel404</p>
+    <p>você tambem pode clicar tab apos escrever a espressção na calculadora.</p>
+</body>
+<script src="/script.js"></script>
+</html>
